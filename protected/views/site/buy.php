@@ -44,7 +44,22 @@ $this->widget('application.extensions.cityautocomplete.CityAutocomplete', array(
 
 echo $form->labelEx($model,'type');  
 echo $form->dropDownList( $model, "type" , RealEstate::getTypes() );
-echo $form->error($model, 'type'); 
+echo $form->error($model, 'type');	 
+
+
+
+echo $form->labelEx($model, 'price_from'); 
+echo $form->textField($model, 'price_from', array('size' => 5, 'maxlength' => 5)); 
+echo $form->error($model, 'price_from'); 
+echo "-";
+echo $form->textField($model, 'price_to', array('size' => 5, 'maxlength' => 5));
+echo $form->labelEx($model, 'price_to');
+echo $form->error($model, 'price_to');
+
+
+echo "<div class=\"row buttons\">";
+ echo CHtml::submitButton('Search'); 
+ echo "</div>"; 
 
 $this->endWidget();
 ?>
