@@ -1,0 +1,558 @@
+2013/06/27 13:53:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/?r=gii
+---
+2013/06/27 14:02:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mod_real_estate/views/default/index.php".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mod_real_estate...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=mod_real_estate/views/default/index.php
+---
+2013/06/27 14:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mod_real_estate/views/index.php".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mod_real_estate...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=mod_real_estate/views/index.php
+---
+2013/06/27 14:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "realestate/index".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('realestate/inde...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=realestate/index
+---
+2013/06/27 14:25:42 [error] [php] include(RealestateModule.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php(196): import()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModule.php(282): createComponent()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=rs2/default/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/27 16:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "newbuilt".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('newbuilt')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('newbuilt')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/newbuilt')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/newbuilt
+---
+2013/06/27 16:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "newbuilt".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('newbuilt')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('newbuilt')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/newbuilt')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/newbuilt
+---
+2013/06/27 16:30:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "newbuilt".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('newbuilt')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('newbuilt')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/newbuilt')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/newbuilt
+---
+2013/06/27 16:39:15 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "new".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('new', NULL, true)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): CController->render('new')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/recentbuilt
+---
+2013/06/28 09:36:27 [error] [php] Undefined offset: 1 (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\s3slider\S3Slider.php:33)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(17): SiteController->widget()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\s3slider\S3Slider.php (33)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\s3slider\S3Slider.php (73)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (17)
+2013/06/28 10:22:59 [error] [exception.CException] exception 'CException' with message 'Property "RnSlideShow.images" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('images', Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(17): CBaseController->widget('application.ext...', Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', NULL, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', NULL, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', NULL, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): CController->render('buy')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 10:23:20 [error] [exception.CException] exception 'CException' with message 'Property "RnSlideShow.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\rnslideshow\RnSlideShow.php(46): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): RnSlideShow->run()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(17): CBaseController->widget('application.ext...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', NULL, true)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', NULL, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', NULL, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): CController->render('buy')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 10:24:17 [error] [exception.CException] exception 'CException' with message 'Property "RnSlideShow.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\rnslideshow\RnSlideShow.php(57): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): RnSlideShow->run()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(17): CBaseController->widget('application.ext...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', NULL, true)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', NULL, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', NULL, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): CController->render('buy')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 10:24:56 [error] [exception.CException] exception 'CException' with message 'Property "RnSlideShow.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\rnslideshow\RnSlideShow.php(57): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): RnSlideShow->run()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(17): CBaseController->widget('application.ext...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', NULL, true)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', NULL, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', NULL, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(32): CController->render('buy')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 11:07:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'testdrive'' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=gii/model
+HTTP_REFERER=http://localhost/realestate/index.php?r=gii/model
+---
+2013/06/28 12:58:58 [error] [php] Undefined variable: model (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:25)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(35): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (25)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (35)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:01:14 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.id_city" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('id_city')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'id_city')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'id_city', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'id_city')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(36): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(39): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 13:03:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name.
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php (98)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (134)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:03:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php(98): CDbCommand->queryAll(true, Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(134): City::cityAutoComplete('m')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCityAutocomplete()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cityAutoComplet...')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/cityAutoCo...')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/realestate/index.php?r=site/cityAutoComplete&term=m
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/index
+---
+2013/06/28 13:03:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name.
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php (98)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (134)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:03:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php(98): CDbCommand->queryAll(true, Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(134): City::cityAutoComplete('mo')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCityAutocomplete()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cityAutoComplet...')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/cityAutoCo...')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/realestate/index.php?r=site/cityAutoComplete&term=mo
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/index
+---
+2013/06/28 13:03:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name.
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php (98)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (134)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:03:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php(98): CDbCommand->queryAll(true, Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(134): City::cityAutoComplete('moso')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCityAutocomplete()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cityAutoComplet...')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/cityAutoCo...')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/realestate/index.php?r=site/cityAutoComplete&term=moso
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/index
+---
+2013/06/28 13:04:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name.
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php (98)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (134)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:04:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'where clause'. The SQL statement executed was: SELECT id_city as id  ,name AS label FROM city WHERE title LIKE :name' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\City.php(98): CDbCommand->queryAll(true, Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(134): City::cityAutoComplete('m')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCityAutocomplete()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cityAutoComplet...')
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/cityAutoCo...')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/realestate/index.php?r=site/cityAutoComplete&term=m
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/index
+---
+2013/06/28 13:34:15 [error] [php] Undefined variable: myModel (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:40)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:35:18 [error] [exception.CException] exception 'CException' with message 'Alias "ext.combobox.EJuiComboBox" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.combobox.EJ...', true)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.combobox.EJ...', Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.combobox.EJ...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(58): CBaseController->widget('ext.combobox.EJ...', Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): CController->render('buy', Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/realestate/index.php?r=site/index
+---
+2013/06/28 13:41:25 [error] [php] Missing argument 1 for CHtml::listBox(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php on line 39 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:842)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (39)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:41:59 [error] [php] Missing argument 1 for CHtml::listBox(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php on line 39 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:842)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (39)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:54:58 [error] [php] Missing argument 3 for CHtml::dropDownList(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php on line 40 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:780)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 13:56:30 [error] [php] Missing argument 3 for CHtml::dropDownList(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php on line 40 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:780)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 15:40:54 [error] [php] Undefined variable: from (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:46)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (46)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 15:41:14 [error] [php] Undefined variable: from (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:46)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (46)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 15:42:11 [error] [php] Undefined variable: from (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:46)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (46)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 15:42:33 [error] [php] Undefined variable: from (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php:46)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (46)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 15:59:44 [error] [php] Declaration of SimpleSearchForm::getAttributeLabel() should be compatible with that of CModel::getAttributeLabel() (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php:4)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(33): spl_autoload_call()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php (4)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (33)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/06/28 16:02:04 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php on line 13 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:571)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1213): SimpleSearchForm->getAttributeLabel()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1238): activeLabel()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(45): CActiveForm->labelEx()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(40): SiteController->render()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/index
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php (13)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (45)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (40)
