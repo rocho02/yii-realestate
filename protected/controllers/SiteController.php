@@ -30,16 +30,35 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		
-		$frm = new SimpleSearchForm;
-		
-
+		$model = new SimpleSearchForm;
 		
 		
+		if (isset($_POST['SimpleSearchForm'])) {
+			$model->attributes = $_POST['SimpleSearchForm'];
+			
+			if ( $model->validate() ){
+				$this->redirect(array('site/items','id'=>100));
+			}else{
+			
+			$city = City::model()->findByPK($model->city_autocomplete_value);
+			$model -> city_autocomplete_label = $city == null ? $_POST['city_autocomplete_label'] :   $city->name;
+			}
+			
+			
+		} 
 		
 		
-		$this->render('buy', array('model'=> $frm));
+		
+		$this->render('index', array('model'=> $model));
 	}
 
+	
+	
+	public function  actionItems(){
+		$this->layout = "main2";
+		$this->render('items');
+	}
+	
 	public function actionRent(){
 		$this->render('index');
 	}
@@ -97,6 +116,7 @@ class SiteController extends Controller
 	{
 		$model=new LoginForm;
 
+		
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
 		{

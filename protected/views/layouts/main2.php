@@ -27,16 +27,6 @@
 		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
 		<div id="banner">
 		<?php 
-		$this->widget('application.extensions.rnslideshow.RnSlideShow',
-			array(
-					'images' => array(
-							array(Yii::app()->request->baseUrl .'/images/img01.jpg'),
-							array(Yii::app()->request->baseUrl .'/images/img02.jpg'),
-					),
-					'width' => '950',
-					'height' => '300',
-			)
-		);
 		?>
 		</div>
 	</div><!-- header -->

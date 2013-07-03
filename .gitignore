@@ -1,3 +1,5 @@
 .settings
 .project
 .buildpath
+assets/*
+!assets/.gitignore

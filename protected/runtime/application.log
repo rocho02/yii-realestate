@@ -579,3 +579,898 @@ Stack trace:
 #18 {main}
 REQUEST_URI=/realestate/index.php?r=site/index
 ---
+2013/07/01 09:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "newbuilt".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('newbuilt')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('newbuilt')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/newbuilt')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/newbuilt
+---
+2013/07/01 09:54:15 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:15 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:15 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:15 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:31 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:31 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:31 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:31 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:39 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:39 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:39 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:39 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:48 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:48 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:48 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 09:54:48 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:00:29 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:00:29 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:00:29 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:00:29 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:19 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:19 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:19 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:19 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:48 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:48 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:48 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:48 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:51 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:51 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:51 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:03:51 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:38 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:38 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:38 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:38 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:48 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:48 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:48 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:48 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:53 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:53 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:53 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:53 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:57 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:57 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:57 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:04:57 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:05:42 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:05:42 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:05:42 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:05:42 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:08:55 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:08:55 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:08:55 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:08:55 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:09:06 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:09:06 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:09:06 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:09:06 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:22:26 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:22:44 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:22:58 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:47 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:47 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:47 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:47 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:51 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:51 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:51 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:51 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:53 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:53 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:53 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:23:53 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:43 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:43 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:43 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:43 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:46 [warning] [application] Failed to set unsafe attribute "id_city" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:46 [warning] [application] Failed to set unsafe attribute "type" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:46 [warning] [application] Failed to set unsafe attribute "price_from" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:27:46 [warning] [application] Failed to set unsafe attribute "price_to" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:34:01 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.SimpleSearchForm" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2244): CComponent->__get('SimpleSearchFor...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'SimpleSearchFor...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(50): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/01 10:34:27 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.SimpleSearchForm" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2244): CComponent->__get('SimpleSearchFor...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'SimpleSearchFor...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(50): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/01 10:34:31 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.SimpleSearchForm" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2244): CComponent->__get('SimpleSearchFor...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'SimpleSearchFor...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(50): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/01 10:42:16 [error] [php] Undefined variable: _post (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php:38)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (38)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:42:37 [error] [php] Indirect modification of overloaded property SimpleSearchForm::$attributes has no effect (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php:38)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (38)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/01 10:43:18 [error] [php] Indirect modification of overloaded property SimpleSearchForm::$attributes has no effect (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php:38)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (38)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/02 16:51:59 [error] [php] strpos() expects parameter 1 to be string, array given (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:2203)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1371): resolveNameID()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): activeHiddenField()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(44): SiteController->widget()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(53): SiteController->render()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php (28)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (44)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (53)
+2013/07/02 17:02:11 [error] [php] strpos() expects parameter 1 to be string, array given (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:2203)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1371): resolveNameID()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): activeHiddenField()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(44): SiteController->widget()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): SiteController->render()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php (28)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (44)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (51)
+2013/07/02 17:03:12 [error] [php] strpos() expects parameter 1 to be string, array given (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:2203)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1371): resolveNameID()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): activeHiddenField()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(44): SiteController->widget()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): SiteController->render()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php (28)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (44)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (51)
+2013/07/02 17:08:13 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'name')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'name', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'name')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/02 17:08:17 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'name')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'name', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'name')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/02 17:17:18 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.name" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('name')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'name')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'name', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'name')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 09:47:37 [error] [exception.CException] exception 'CException' with message 'CityAutocomplete must specify "model" and "attribute" or "name" property values.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\zii\widgets\jui\CJuiInputWidget.php:52
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(13): CJuiInputWidget->resolveNameID()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(51): CController->render('buy', Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/03 09:59:37 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.SimpleSearchForm" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2244): CComponent->__get('SimpleSearchFor...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'SimpleSearchFor...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'SimpleSearchFor...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(53): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 10:00:06 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.city_autocomplete_label" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('city_autocomple...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(SimpleSearchForm), 'city_autocomple...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1372): CHtml::activeInputField('hidden', Object(SimpleSearchForm), 'city_autocomple...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(28): CHtml::activeHiddenField(Object(SimpleSearchForm), 'city_autocomple...')
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(43): CBaseController->widget('application.ext...', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(53): CController->render('buy', Array)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 10:00:55 [warning] [application] Failed to set unsafe attribute "city_autocomplete_label" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 10:00:55 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.city_autocomplete" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CDefaultValueValidator.php(44): CComponent->__get('city_autocomple...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(SimpleSearchForm), 'city_autocomple...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(SimpleSearchForm), NULL)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(39): CModel->validate()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 10:01:26 [warning] [application] Failed to set unsafe attribute "city_autocomplete_label" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 10:01:26 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.city_autocomplete" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CDefaultValueValidator.php(44): CComponent->__get('city_autocomple...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(SimpleSearchForm), 'city_autocomple...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(SimpleSearchForm), NULL)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(39): CModel->validate()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 10:01:50 [warning] [application] Failed to set unsafe attribute "city_autocomplete_label" of "SimpleSearchForm".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (37)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 10:01:50 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.$city_autocomplete_label" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CDefaultValueValidator.php(44): CComponent->__get('$city_autocompl...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(SimpleSearchForm), '$city_autocompl...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(SimpleSearchForm), NULL)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(39): CModel->validate()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/realestate/
+HTTP_REFERER=http://localhost/realestate/
+---
+2013/07/03 10:22:56 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php:98)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(153): renderAttributes()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1175): tag()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(580): inputField()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php(27): textField()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(173): CityAutocomplete->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(46): SiteController->widget()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(56): SiteController->render()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\extensions\cityautocomplete\CityAutocomplete.php (27)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (46)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (56)
+2013/07/03 10:33:55 [error] [php] Trying to get property of non-object (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (42)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 10:59:14 [error] [exception.CException] exception 'CException' with message 'Property "SimpleSearchForm.city_autocomplete_label" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(39): CComponent->__get('city_autocomple...')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('buy', Array, true)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(56): CController->render('buy', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/realestate/
+---
+2013/07/03 11:00:02 [error] [php] include(cityAutocompleteValue.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(286): createValidator()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(260): SimpleSearchForm->createValidators()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(303): SimpleSearchForm->getValidators()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1237): SimpleSearchForm->isAttributeRequired()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(49): CActiveForm->labelEx()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(56): SiteController->render()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (49)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (56)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 11:00:54 [error] [php] include(cityAutocompleteValue.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(286): createValidator()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(260): SimpleSearchForm->createValidators()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(303): SimpleSearchForm->getValidators()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1237): SimpleSearchForm->isAttributeRequired()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php(49): CActiveForm->labelEx()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(56): SiteController->render()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\buy.php (49)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (56)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 11:06:33 [error] [php] Missing argument 2 for YiiBase::t(), called in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php on line 50 and defined (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:571)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(39): SimpleSearchForm->validate()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\SimpleSearchForm.php (50)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (39)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 12:28:43 [error] [php] Undefined variable: model (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\index.php:34)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(59): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionItems()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/items&id=100
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\index.php (34)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (59)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 12:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "real_estate".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('real_estate')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('real_estate')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/real_estat...')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/real_estate
+---
+2013/07/03 12:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "real_estate".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('real_estate')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('real_estate')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/real_estat...')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/real_estate
+---
+2013/07/03 12:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "realEstate".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('realEstate')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('realEstate')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/realEstate')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/realEstate
+---
+2013/07/03 12:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "realestate".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(270): CController->missingAction('realestate')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('realestate')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/realestate')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/realestate/index.php?r=site/realestate
+---
+2013/07/03 12:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\RealEstateController.php:157
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\RealEstateController.php(55): RealEstateController->loadModel('11')
+#1 [internal function]: RealEstateController->actionView('11')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RealEstateController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RealEstateController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('realEstate/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=realEstate/view&id=11
+---
+2013/07/03 12:45:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('realEstate/view')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/realestate/index.php?r=realEstate/view&id2=1
+---
+2013/07/03 12:46:07 [error] [php] Undefined variable: id (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\RealEstateController.php:55)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): RealEstateController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): RealEstateController->filterAccessControl()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): RealEstateController->runActionWithFilters()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): RealEstateController->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=realEstate/view&id2=1
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\RealEstateController.php (55)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/03 12:46:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('realEstate/view')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/realestate/index.php?r=realEstate/view&id2=1
+---
