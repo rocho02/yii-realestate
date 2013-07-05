@@ -48,7 +48,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id',
 		'username',
 		'email',
-		'password',
+		/*'password',*/
 		'last_login_time',
 		'create_time',
 		/*

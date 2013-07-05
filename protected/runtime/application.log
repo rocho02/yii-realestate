@@ -2699,3 +2699,11 @@ HTTP_REFERER=http://localhost/realestate/index.php?r=user
 2013/07/05 13:14:46 [warning] [application.controllers.SiteController] Failed login attempt
 in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (143)
 in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/05 13:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ruser".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ruser')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=ruser
+---
