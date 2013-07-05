@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Update RealEstate', 'url'=>array('update', 'id'=>$model->id_real_estate)),
 	array('label'=>'Delete RealEstate', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_real_estate),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage RealEstate', 'url'=>array('admin')),
+	array('label'=>'RealEstate Folders', 'url'=>array('folder/index', 're_id'=>$model->id_real_estate)),
 );
 ?>
 

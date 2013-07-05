@@ -1474,3 +1474,1228 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/realestate/index.php?r=realEstate/view&id2=1
 ---
+2013/07/04 10:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "file".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=file
+---
+2013/07/04 10:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sfile".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sfile')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=sfile
+---
+2013/07/04 10:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sfile".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sfile')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/realestate/index.php?r=sfile
+---
+2013/07/04 10:55:32 [error] [exception.CException] exception 'CException' with message 'FolderController and its behaviors do not have a method or closure named "loadProject".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(189): CComponent->__call('loadProject', Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(189): FolderController->loadProject(NULL)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/create')
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/realestate/index.php?r=folder/create
+---
+2013/07/04 10:56:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php:208
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(189): FolderController->loadRealEstate(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/create')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=folder/create
+---
+2013/07/04 11:27:41 [error] [php] include(name.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(286): createValidator()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(260): Folder->createValidators()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(303): Folder->getValidators()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1237): Folder->isAttributeRequired()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\widgets\CActiveForm.php(562): activeLabelEx()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\folder\_form.php(19): CActiveForm->labelEx()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): FolderController->renderInternal()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): FolderController->renderFile()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\folder\create.php(18): FolderController->renderPartial()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): FolderController->renderInternal()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): FolderController->renderFile()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): FolderController->renderPartial()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(83): FolderController->render()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FolderController->actionCreate()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FolderController->runAction()
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(192): CFilterChain->run()
+#20 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext()
+#21 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#24 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterAccessControl()
+#25 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#26 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#27 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FolderController->runActionWithFilters()
+#28 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FolderController->run()
+#29 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#30 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#31 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=folder/create&re_id=1
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\folder\_form.php (19)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\folder\create.php (18)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php (83)
+2013/07/04 11:36:03 [error] [exception.CException] exception 'CException' with message 'Property "Folder.update_time" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('update_time', Object(CDbExpression))
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\components\REActiveRecord.php(12): CActiveRecord->__set('update_time', Object(CDbExpression))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(156): REActiveRecord->beforeValidate()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(794): CModel->validate(NULL)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(77): CActiveRecord->save()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FolderController->actionCreate()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(192): CFilterChain->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/create')
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/realestate/index.php?r=folder/create&re_id=1
+HTTP_REFERER=http://localhost/realestate/index.php?r=folder/create&re_id=1
+---
+2013/07/04 11:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested real estate does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php:210
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(191): FolderController->loadRealEstate(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/create')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=folder/create
+HTTP_REFERER=http://localhost/realestate/index.php?r=folder/view&id=1
+---
+2013/07/04 11:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested real estate does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php:210
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(191): FolderController->loadRealEstate(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=folder/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=folder/view&id=2
+---
+2013/07/04 12:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested real estate does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php:210
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(191): FolderController->loadRealEstate(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=folder/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=folder/view&id=1
+---
+2013/07/04 13:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:207
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(188): FileController->loadFolder('')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index&folder=
+---
+2013/07/04 13:10:48 [error] [exception.CException] exception 'CException' with message 'Property "RealEstate.id_folder" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('id_folder')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(132): CActiveRecord->__get('id_folder')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionIndex()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(197): CFilterChain->run()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/realestate/index.php?r=file/index&folder=1
+---
+2013/07/04 13:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:214
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(195): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/create')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/create
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=1
+---
+2013/07/04 13:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:215
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(196): FileController->loadFolder('')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index&folder=
+---
+2013/07/04 13:17:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested real estate does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php:210
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FolderController.php(191): FolderController->loadRealEstate(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FolderController->filterRealEstateContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('folder/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=folder/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=folder/view&id=1
+---
+2013/07/04 13:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:218
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(199): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/create&folder=1
+---
+2013/07/04 13:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:218
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(199): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/create&folder=1
+---
+2013/07/04 14:19:34 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (209)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:19:35 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CUploadedFile.php:196)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionCreate()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(209): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=1
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (83)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (209)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:22:56 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (209)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:24:38 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (210)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:30:03 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:30:03 [error] [exception.CException] exception 'CException' with message 'Folder and its behaviors do not have a method or closure named "getPath".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('getPath', Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(83): CActiveRecord->__call('getPath', Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(83): Folder->getPath()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionCreate()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(212): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/create')
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/create&folder=2
+---
+2013/07/04 14:30:37 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:30:37 [error] [php] move_uploaded_file(upload/realestate/images/test1) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CUploadedFile.php:196)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionCreate()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(212): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (86)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:31:08 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:31:08 [error] [php] Trying to get property of non-object (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:83)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(212): CFilterChain->run()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (83)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:31:42 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:31:42 [error] [php] move_uploaded_file(upload/realestate/images/test1/sok goldi.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CUploadedFile.php:196)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionCreate()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(212): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (86)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (212)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:37:23 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (213)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:37:23 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CUploadedFile.php:196)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionCreate()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(213): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (87)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (213)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:37:34 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (213)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:37:34 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:84)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(213): CFilterChain->run()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/create&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (84)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (213)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:38:14 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (214)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:47:40 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (218)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 14:48:15 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (218)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:00:56 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (221)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:02:30 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (220)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:02:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:237
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(218): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:237
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(218): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index&id=2
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:237
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(218): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:237
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(218): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:10:02 [error] [php] Trying to get property of non-object (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:139)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1116): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterPostOnly()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/delete&id=14
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (139)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:244
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(225): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1116): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/delete')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/delete&id=14
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:10:43 [error] [php] Trying to get property of non-object (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:139)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1116): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterPostOnly()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/delete&id=14
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (139)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:245
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(226): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:15:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=14
+---
+2013/07/04 15:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+---
+2013/07/04 15:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:199
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(58): FileController->loadModel('14')
+#1 [internal function]: FileController->actionView('14')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FileController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/view&id=14
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=2
+---
+2013/07/04 15:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=13
+---
+2013/07/04 15:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:199
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(58): FileController->loadModel('13')
+#1 [internal function]: FileController->actionView('13')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FileController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/view&id=13
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=2
+---
+2013/07/04 15:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:199
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(58): FileController->loadModel('13')
+#1 [internal function]: FileController->actionView('13')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FileController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/view&id=13
+---
+2013/07/04 15:17:36 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (228)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:245
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(226): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:245
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(226): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:245
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(226): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:198
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(58): FileController->loadModel('15')
+#1 [internal function]: FileController->actionView('15')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FileController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/view&id=15
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/create&folder=2
+---
+2013/07/04 15:24:19 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (228)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:25:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:245
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(226): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:28:17 [error] [php] Undefined variable: folder (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php:11)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): FileController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): FileController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(185): FileController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionAdmin()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(229): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/admin&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php (11)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (185)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (229)
+2013/07/04 15:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:199
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(58): FileController->loadModel('16')
+#1 [internal function]: FileController->actionView('16')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FileController), Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FileController), Object(ReflectionMethod), Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/view')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=file/view&id=16
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/create&folder=2
+---
+2013/07/04 15:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=2
+---
+2013/07/04 15:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=2
+---
+2013/07/04 15:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:246
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(227): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/index&folder=2
+---
+2013/07/04 15:30:17 [error] [php] Undefined variable: folder (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php:11)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): FileController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): FileController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(185): FileController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionAdmin()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(229): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/admin&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php (11)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (185)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (229)
+2013/07/04 15:31:24 [error] [php] Undefined variable: folder (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php:6)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): FileController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): FileController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(185): FileController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): FileController->actionAdmin()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): FileController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(229): CFilterChain->run()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterAccessControl()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=file/admin&folder=2
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\file\admin.php (6)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (185)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (229)
+2013/07/04 15:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:247
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(228): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:247
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(228): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/index')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/index
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/admin&folder=2
+---
+2013/07/04 15:33:01 [warning] [application] Failed to set unsafe attribute "image" of "File".
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (78)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php (230)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/04 15:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested folder does not exist.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php:247
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\FileController.php(228): FileController->loadFolder(NULL)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FileController->filterFolderContext(Object(CFilterChain))
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/admin')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/realestate/index.php?r=file/admin
+HTTP_REFERER=http://localhost/realestate/index.php?r=file/view&id=17
+---
+2013/07/05 08:35:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'realestate.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2013/07/05 13:05:25 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "encrypt".' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('encrypt', Array)
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\components\UserIdentity.php(24): CActiveRecord->__call('encrypt', Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\components\UserIdentity.php(24): User->encrypt('admin')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(136): CModel->validate()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/realestate/index.php?r=site/login
+HTTP_REFERER=http://localhost/realestate/index.php?r=site/login
+---
+2013/07/05 13:06:39 [error] [php] Undefined variable: model (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\index.php:34)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php(63): SiteController->render()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRent()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=site/rent&view=about
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\site\index.php (34)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (63)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
+2013/07/05 13:10:45 [error] [exception.CException] exception 'CException' with message 'Property "User.password_repeat" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('password_repeat')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('password_repeat')
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(User), 'password_repeat')
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\helpers\CHtml.php(1391): CHtml::activeInputField('password', Object(User), 'password_repeat', Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\widgets\CActiveForm.php(687): CHtml::activePasswordField(Object(User), 'password_repeat', Array)
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\user\_form.php(38): CActiveForm->passwordField(Object(User), 'password_repeat', Array)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\user\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\UserController.php(79): CController->render('create', Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#26 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/realestate/index.php?r=user/create
+HTTP_REFERER=http://localhost/realestate/index.php?r=user
+---
+2013/07/05 13:14:46 [warning] [application.controllers.SiteController] Failed login attempt
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\SiteController.php (143)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php (13)
