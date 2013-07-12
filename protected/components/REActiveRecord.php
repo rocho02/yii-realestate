@@ -9,7 +9,7 @@ abstract class REActiveRecord extends CActiveRecord
 		if($this->isNewRecord)
 		{
 			// set the create date, last updated date and the user doing the creating
-			$this->creation_date=$this->creation_date=new CDbExpression('NOW()');
+			$this->creation_date=new CDbExpression('NOW()');
 			//$this->create_user_id=$this->update_user_id=Yii::app()->user->id;
 		}
 		else

@@ -48,10 +48,6 @@ $this->widget('application.extensions.cityautocomplete.CityAutocomplete', array(
 		'attribute'=>'city_autocomplete_value',//name of hidden as form member
 		'name'=>"city_autocomplete_label",//name of visible text field
 		'source'=>$this->createUrl('site/cityAutoComplete'),  // Controller/Action path for action we created in step 4.
-// 		// additional javascript options for the autocomplete plugin
-// 		'options'=>array(
-// 				'minLength'=>'0',
-// 		),
  		'value'=>   $model->city_autocomplete_label,//value of the visible text input
 		'options' => array(
 				'showAnim' => 'fold',

@@ -11,8 +11,13 @@
  * @property integer $type
  * @property integer $status
  * @property integer $state
+ * @property integer $id_city
+ *
+ * The followings are the available model relations:
+ * @property Advertisment[] $advertisments
+ * @property City $idCity
  */
-class RealEstate extends CActiveRecord
+class RealEstate extends REActiveRecord
 {
 	
 	const TYPE_HOUSE = 1;
@@ -20,6 +25,10 @@ class RealEstate extends CActiveRecord
 	const TYPE_GROUND = 3;
 	const TYPE_TERRACED_HOUSE = 4;
 	const TYPE_SEMI_DITACHED_HOUSE = 5;
+
+	public $id_city;
+	public $city_autocomplete_value;
+	public $city_autocomplete_label;
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -47,9 +56,10 @@ class RealEstate extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('creation_date, type, status, state', 'required'),
+			array('creation_date, type, status, state, id_city', 'required'),
 			array('type, status, state', 'numerical', 'integerOnly'=>true),
 			array('description, adress', 'length', 'max'=>500),
+			array('creation_date','safe'),	
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id_real_estate, creation_date, description, adress, type, status, state', 'safe', 'on'=>'search'),
@@ -64,6 +74,8 @@ class RealEstate extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+				'advertisments' => array(self::HAS_MANY, 'Advertisment', 'id_real_estate'),
+				'idCity' => array(self::BELONGS_TO, 'City', 'id_city'),
 		);
 	}
 
@@ -80,6 +92,7 @@ class RealEstate extends CActiveRecord
 			'type' => 'Type',
 			'status' => 'Status',
 			'state' => 'State',
+			'id_city' => 'Id City',
 		);
 	}
 
@@ -101,6 +114,7 @@ class RealEstate extends CActiveRecord
 		$criteria->compare('type',$this->type);
 		$criteria->compare('status',$this->status);
 		$criteria->compare('state',$this->state);
+		$criteria->compare('id_city',$this->id_city);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

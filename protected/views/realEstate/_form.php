@@ -15,11 +15,6 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'creation_date'); ?>
-		<?php echo $form->textField($model,'creation_date'); ?>
-		<?php echo $form->error($model,'creation_date'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'description'); ?>
@@ -50,6 +45,7 @@
 		<?php echo $form->textField($model,'state'); ?>
 		<?php echo $form->error($model,'state'); ?>
 	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

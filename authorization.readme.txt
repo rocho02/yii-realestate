@@ -1,0 +1,294 @@
+1;create database tables;
+2;enable auth manager in config
+3;add roles
+4;example: creat rbac command
+5;assign role to user
+6;check user access
+
+
+1;create database tables;
+
+class m130708_101921_create_rbac_tables extends CDbMigration
+{
+
+	// Use safeUp/safeDown to do migration with transaction
+	public function safeUp()
+	{
+		//create the auth item table
+		$this->createTable('auth_item', array(
+				'name' =>'varchar(64) NOT NULL',
+				'type' =>'integer NOT NULL',
+				'description' =>'text',
+				'bizrule' =>'text',
+				'data' =>'text',
+				'PRIMARY KEY (`name`)',
+		), 'ENGINE=InnoDB DEFAULT charset=utf8');
+
+
+
+		//create the auth item child table
+		$this->createTable('auth_item_child', array(
+				'parent' =>'varchar(64) NOT NULL',
+				'child' =>'varchar(64) NOT NULL',
+				'PRIMARY KEY (`parent`,`child`)',
+		), 'ENGINE=InnoDB DEFAULT charset=utf8');
+
+		//the auth_item_child.parent is a reference to auth_item.name
+		$this->addForeignKey("fk_auth_item_child_parent", "auth_item_child", "parent", "auth_item", "name", "CASCADE", "CASCADE");
+
+		//the auth_item_child.child is a reference to auth_item.name
+		$this->addForeignKey("fk_auth_item_child_child", "auth_item_child", "child", "auth_item", "name", "CASCADE", "CASCADE");
+
+		//create the auth assignment table
+		$this->createTable('auth_assignment', array(
+				'itemname' =>'varchar(64) NOT NULL',
+				'userid' =>'int(11) NOT NULL',
+				'bizrule' =>'text',
+				'data' =>'text',
+				'PRIMARY KEY (`itemname`,`userid`)',
+		), 'ENGINE=InnoDB DEFAULT charset=utf8');
+
+
+		//the auth_assignment.itemname is a reference
+		//to auth_item.name
+		$this->addForeignKey("fk_auth_assignment_itemname",	"auth_assignment","itemname","auth_item","name","CASCADE",	"CASCADE");
+		//the auth_assignment.userid is a reference
+		//to user.id
+		$this->addForeignKey("fk_auth_assignment_userid","auth_assignment","userid","user","id","CASCADE","CASCADE"	);
+	}
+
+	public function safeDown()
+	{
+		$this->truncateTable('auth_assignment');
+		$this->truncateTable('auth_item_child');
+		$this->truncateTable('auth_item');
+		$this->dropTable('auth_assignment');
+		$this->dropTable('auth_item_child');
+		$this->dropTable('auth_item');
+	}
+}
+
+
+2;enable auth manager in config ( main and console )
+
+// application components
+'components'=>array(
+…
+'authManager'=>array(
+'class'=>'CDbAuthManager',
+'connectionID'=>'db',
+'itemTable' =>'tbl_auth_item',
+'itemChildTable' =>'tbl_auth_item_child',
+'assignmentTable' =>'tbl_auth_assignment',
+),
+
+3;add roles
+$auth=Yii::app()->authManager;
+$role=$auth->createRole('owner');
+$auth->createOperation('createProject','create a new project');
+$role->addChild('createProject');
+
+
+
+
+4;example: creat rbac command
+<?php
+class RbacCommand extends CConsoleCommand
+{
+	private $_authManager;
+	public function getHelp()
+	{
+		$description = "DESCRIPTION\n";
+		$description .= ' '."This command generates an initial RBAC authorization hierarchy.\n";
+		return parent::getHelp() . $description;
+	}
+
+	/**
+	 * The default action - create the RBAC structure.
+	 */
+	public function actionIndex()
+	{
+		$this->ensureAuthManagerDefined();
+		//provide the oportunity for the use to abort the request
+		$message = "This command will create three roles: Owner, Member, and Reader\n";
+		$message .= " and the following permissions:\n";
+		$message .= "create, read, update and delete user\n";
+		$message .= "create, read, update and delete project\n";
+		$message .= "create, read, update and delete issue\n";
+		$message .= "Would you like to continue?";
+		//check the input from the user and continue if
+		//they indicated yes to the above question
+		if($this->confirm($message))
+		{
+			//first we need to remove all operations,
+			//roles, child relationship and assignments
+			$this->_authManager->clearAll();
+
+			//create the lowest level operations for users
+			$this->_authManager->createOperation(
+					"createUser",
+					"create a new user");
+			$this->_authManager->createOperation(
+					"readUser",
+					"read user profile information");
+			$this->_authManager->createOperation(
+					"updateUser",
+					"update a users in-formation");
+			$this->_authManager->createOperation(
+					"deleteUser",
+					"remove a user from a project");
+
+			//create the lowest level operations for projects
+			$this->_authManager->createOperation(
+					"createProject",
+					"create a new project");
+			$this->_authManager->createOperation(
+					"readProject",
+					"read project information");
+			$this->_authManager->createOperation(
+					"updateProject",
+					"update project information");
+			$this->_authManager->createOperation(
+					"deleteProject",
+					"delete a project");
+
+			//create the lowest level operations for issues
+			$this->_authManager->createOperation(
+					"createIssue",
+					"create a new issue");
+			$this->_authManager->createOperation(
+					"readIssue",
+					"read issue information");
+			$this->_authManager->createOperation(
+					"updateIssue",
+					"update issue information");
+			$this->_authManager->createOperation(
+					"deleteIssue",
+					"delete an issue from a project");
+
+			//create the reader role and add the appropriate
+			//permissions as children to this role
+			$role=$this->_authManager->createRole("reader");
+			$role->addChild("readUser");
+			$role->addChild("readProject");
+			$role->addChild("readIssue");
+
+			//create the member role, and add the appropriate
+			//permissions, as well as the reader role itself, as children
+			$role=$this->_authManager->createRole("member");
+			$role->addChild("reader");
+			$role->addChild("createIssue");
+			$role->addChild("updateIssue");
+			$role->addChild("deleteIssue");
+
+			//create the owner role, and add the appropriate permissions,
+			//as well as both the reader and member roles as children
+			$role=$this->_authManager->createRole("owner");
+			$role->addChild("reader");
+			$role->addChild("member");
+			$role->addChild("createUser");
+			$role->addChild("updateUser");
+			$role->addChild("deleteUser");
+			$role->addChild("createProject");
+			$role->addChild("updateProject");
+			$role->addChild("deleteProject");
+			//provide a message indicating success
+			echo "Authorization hierarchy successfully generated.\n";
+		}
+		else
+			echo "Operation cancelled.\n";
+	}
+
+	public function actionDelete()
+	{
+		$this->ensureAuthManagerDefined();
+		$message = "This command will clear all RBAC definitions.\n";
+		$message .= "Would you like to continue?";
+		//check the input from the user and continue if they indicated
+		//yes to the above question
+		if($this->confirm($message))
+		{
+			$this->_authManager->clearAll();
+			echo "Authorization hierarchy removed.\n";
+		}
+		else
+			echo "Delete operation cancelled.\n";
+	}
+	protected function ensureAuthManagerDefined()
+	{
+		//ensure that an authManager is defined as this is mandatory for creating an auth heirarchy
+		if(($this->_authManager=Yii::app()->authManager)===null)
+		{
+			$message = "Error: an authorization manager, named 'authManager' must be con-figured to use this command.";
+			$this->usageError($message);
+		}
+	}
+}
+
+5;assing role to user
+
+class AdminRoleCommand extends CConsoleCommand
+{
+	private $_authManager;
+	public function getHelp()
+	{
+		$description = "DESCRIPTION\n";
+		$description .= ' '."This command adds the 'Owner' role for user with id 1.\n";
+		return parent::getHelp() . $description;
+	}
+
+	/**
+	 * The default action - create the RBAC structure.
+	 */
+	public function actionIndex()
+	{
+		$this->ensureAuthManagerDefined();
+		//provide the oportunity for the use to abort the request
+		$message = "This command will add the 'Owner'role for the user with pk 1\n";
+		$message .= "Would you like to continue?";
+		//check the input from the user and continue if
+		//they indicated yes to the above question
+		if($this->confirm($message))
+		{
+			$auth=Yii::app()->authManager;
+			$auth->assign('owner',1);
+			
+			//provide a message indicating success
+			echo "Role added successfully .\n";
+		}
+		else
+			echo "Operation cancelled.\n";
+	}
+
+	public function actionDelete()
+	{
+		$this->ensureAuthManagerDefined();
+		$message = "This command will clear all assignments.\n";
+		$message .= "Would you like to continue?";
+		//check the input from the user and continue if they indicated
+		//yes to the above question
+		if($this->confirm($message))
+		{
+			$this->_authManager->clearAuthAssignments();
+			echo "Assignments removed.\n";
+		}
+		else
+			echo "Delete operation cancelled.\n";
+	}
+	protected function ensureAuthManagerDefined()
+	{
+		//ensure that an authManager is defined as this is mandatory for creating an auth heirarchy
+		if(($this->_authManager=Yii::app()->authManager)===null)
+		{
+			$message = "Error: an authorization manager, named 'authManager' must be con-figured to use this command.";
+			$this->usageError($message);
+		}
+	}
+}
+
+
+6;check user access
+
+if( Yii::app()->user->checkAccess('createIssue')){
+//perform needed logic
+}
