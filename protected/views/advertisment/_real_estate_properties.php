@@ -1,26 +1,5 @@
-<?php
-/* @var $this RealEstatePropertiesController */
-/* @var $model RealEstateProperties */
-/* @var $form CActiveForm */
-?>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'real-estate-properties-form',
-	'enableAjaxValidation'=>false,
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'id_real_estate'); ?>
-		<?php echo $form->textField($model,'id_real_estate'); ?>
-		<?php echo $form->error($model,'id_real_estate'); ?>
-	</div>
-
+ <fieldset>
+ 	<legend>Ár</legend>
 	<div class="row">
 		<?php echo $form->labelEx($model,'price_buy'); ?>
 		<?php echo $form->textField($model,'price_buy'); ?>
@@ -32,7 +11,9 @@
 		<?php echo $form->textField($model,'price_rent'); ?>
 		<?php echo $form->error($model,'price_rent'); ?>
 	</div>
+ </fieldset>
 
+ <fieldset>
 	<div class="row">
 		<?php echo $form->labelEx($model,'area_size'); ?>
 		<?php echo $form->textField($model,'area_size'); ?>
@@ -44,7 +25,9 @@
 		<?php echo $form->textField($model,'ground_size'); ?>
 		<?php echo $form->error($model,'ground_size'); ?>
 	</div>
+ </fieldset>
 
+ <fieldset>
 	<div class="row">
 		<?php echo $form->labelEx($model,'number_of_rooms'); ?>
 		<?php echo $form->textField($model,'number_of_rooms'); ?>
@@ -68,7 +51,10 @@
 		<?php echo $form->textField($model,'heating_type'); ?>
 		<?php echo $form->error($model,'heating_type'); ?>
 	</div>
+ </fieldset>
 
+ <fieldset>
+ 	<legend>Parkolás</legend>
 	<div class="row">
 		<?php echo $form->labelEx($model,'garage_car_1'); ?>
 		<?php echo $form->checkBox($model,'garage_car_1'); ?>
@@ -98,7 +84,9 @@
 		<?php echo $form->checkBox($model,'parking_near'); ?>
 		<?php echo $form->error($model,'parking_near'); ?>
 	</div>
-
+</fieldset>
+<fieldset>
+	<legend>Kilátás</legend>
 	<div class="row">
 		<?php echo $form->labelEx($model,'outlook_panorama'); ?>
 		<?php echo $form->checkBox($model,'outlook_panorama'); ?>
@@ -122,11 +110,4 @@
 		<?php echo $form->checkBox($model,'outlook_other'); ?>
 		<?php echo $form->error($model,'outlook_other'); ?>
 	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
+</fieldset>

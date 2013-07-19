@@ -19,7 +19,9 @@ Yii::import('ext.imperavi-redactor-widget-master.ImperaviRedactorWidget');
 		Fields with <span class="required">*</span> are required.
 	</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary( $model ); ?>
+	<?php echo $form->errorSummary( $realEstate ); ?>
+	<?php echo $form->errorSummary( $realEstateProperties ); ?>
 
 
 	<div class="row">
@@ -101,6 +103,7 @@ $this->widget('zii.widgets.jui.CJuiDatePicker',array(
 
 
 	<?php $this->renderPartial('_real_estate',array('model'=>$realEstate,'form' =>$form)); ?>
+	<?php $this->renderPartial('_real_estate_properties',array('model'=>$realEstateProperties,'form' =>$form)); ?>
 	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

@@ -3976,3 +3976,29 @@ Stack trace:
 #26 {main}
 REQUEST_URI=/realestate/index.php?r=advertisment/create
 ---
+2013/07/19 15:04:00 [error] [php] Undefined variable: realEstateProperties (C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\_form.php:104)
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): AdvertismentController->renderFile()
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\create.php(18): AdvertismentController->renderPartial()
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): AdvertismentController->renderInternal()
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): AdvertismentController->renderFile()
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): AdvertismentController->renderPartial()
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\AdvertismentController.php(123): AdvertismentController->render()
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdvertismentController->actionCreate()
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): AdvertismentController->runAction()
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): AdvertismentController->filterAccessControl()
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): AdvertismentController->runActionWithFilters()
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): AdvertismentController->run()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CWebApplication->run()
+REQUEST_URI=/realestate/index.php?r=advertisment/create
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\_form.php (104)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\create.php (18)
+in C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\AdvertismentController.php (123)

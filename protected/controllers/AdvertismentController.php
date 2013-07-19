@@ -65,6 +65,7 @@ class AdvertismentController extends Controller
 	{
 		$advertisemnt=new Advertisment;
 		$realEstate = new RealEstate;
+		$realEstateProperties = new RealEstateProperties;
 
 		$advertisemnt->id_user = Yii::app()->user->id;
 		$advertisemnt->verified = 0;
@@ -72,13 +73,14 @@ class AdvertismentController extends Controller
 		
 		//Yii::app()->clientScript->registerScriptFile(Yii::app()->getClientScript()->getCoreScriptUrl() . '/jui/js/jquery-ui-i18n.min.js');
 		
-		if(isset($_POST['Advertisment']) && isset($_POST['RealEstate']))
+		if(isset($_POST['Advertisment']) && isset($_POST['RealEstate']) && isset( $_POST['RealEstateProperties'] )  )
 		{
 				
 			print " real estate valid: " . print_r( $_POST['Advertisment'] );
 			
-			$advertisemnt->attributes=$_POST['Advertisment'];
-			$realEstate->attributes=$_POST['RealEstate'];
+			$advertisemnt->attributes = $_POST['Advertisment'];
+			$realEstate->attributes = $_POST['RealEstate'];
+			$realEstateProperties->attributes = $_POST['RealEstateProperties'];
 			
 			$advertisemnt->flags = BitUtils::set($advertisemnt->flags, Advertisment::FLAG_SALE, $advertisemnt->sale);
 			$advertisemnt->flags = BitUtils::set($advertisemnt->flags, Advertisment::FLAG_RENT, $advertisemnt->rent);
@@ -97,7 +99,12 @@ class AdvertismentController extends Controller
 			if($valid){
 				$transaction = Yii::app()->db->beginTransaction();
 				$success = $realEstate->save(false);
+				
 				$advertisemnt->id_real_estate = $realEstate->id_real_estate;
+				$realEstateProperties->id_real_estate = $realEstate->id_real_estate;
+				
+				if ( $success )
+					$realEstateProperties->save(false);
 				
 				$success = $success ? $advertisemnt->save() : $success;
 				
@@ -118,6 +125,7 @@ class AdvertismentController extends Controller
 		$this->render('create',array(
 			'model'=>$advertisemnt,
 			'realEstate'=>$realEstate,
+			'realEstateProperties'=>$realEstateProperties,
 		));
 	}
 

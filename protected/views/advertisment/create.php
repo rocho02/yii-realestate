@@ -15,4 +15,4 @@ $this->menu=array(
 
 <h1>Create Advertisment</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model,'realEstate'=>$realEstate)); ?>
+<?php echo $this->renderPartial('_form', array('model'=>$model,'realEstate'=>$realEstate,'realEstateProperties'=>$realEstateProperties)); ?>
