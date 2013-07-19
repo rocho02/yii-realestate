@@ -29,6 +29,7 @@ class Advertisment extends CActiveRecord
 	
 	CONST TYPE_NORMAL = 1;
 	
+	
 	public $sale;
 	public $rent;
 	/**
@@ -57,10 +58,10 @@ class Advertisment extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_user, id_real_estate, create_time, update_time, validity_time, verified, flags, type,title,teaser, text,sale,rent', 'required'),
+			array('id_user, id_real_estate, create_time, update_time, validity_time, validityTimeInput, verified, flags, type,title,teaser, text,sale,rent', 'required'),
 			array('id_user, id_real_estate, verified, flags, type', 'numerical', 'integerOnly'=>true),
 			array('title, teaser', 'length', 'max'=>255),
-			array('id_user, id_real_estate,create_time,update_time, verified,flags ', 'safe', 'on'=>'create' ),
+			array('id_user, id_real_estate,create_time,update_time, validity_time, verified,flags ', 'safe', 'on'=>'create' ),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id_advertisment, id_user, id_real_estate, create_time, update_time, validity_time, verified, flags, type, title, teaser, text', 'safe', 'on'=>'search'),
@@ -146,6 +147,16 @@ class Advertisment extends CActiveRecord
 			//$this->update_user_id=Yii::app()->user->id;
 		}
 		return parent::beforeValidate();
+	}
+	
+	public function getValidityTimeInput()
+	{
+		return date('Y-m-d', CDateTimeParser::parse($this->validity_time, Yii::app()->locale->dateFormat));
+	}
+	
+	public function setValidityTimeInput($value)
+	{
+		$this->validity_time = Yii::app()->dateFormatter->formatDateTime(CDateTimeParser::parse($value, 'yyyy-MM-dd'),'medium',null);
 	}
 	
 }

@@ -92,7 +92,7 @@ class RealEstate extends REActiveRecord
 			'type' => 'Type',
 			'status' => 'Status',
 			'state' => 'State',
-			'id_city' => 'Id City',
+			'id_city' => 'City',
 		);
 	}
 
@@ -130,5 +130,14 @@ class RealEstate extends REActiveRecord
 				self::TYPE_SEMI_DITACHED_HOUSE => Yii::t('app',"Ikerház"),
 				self::TYPE_TERRACED_HOUSE => Yii::t('app',"Sorház"),
 				);
+	}
+	
+	public function getStates(){
+		return array(
+				0=>"Újszerű",
+				1=>"Normál",
+				2=>"Felújítandó",
+				3=>"Bontandó",
+		) ;
 	}
 }

@@ -5,6 +5,7 @@
 
 Yii::import('ext.imperavi-redactor-widget-master.ImperaviRedactorWidget');
 
+
 ?>
 
 <div class="form">
@@ -70,12 +71,15 @@ Yii::import('ext.imperavi-redactor-widget-master.ImperaviRedactorWidget');
 	<?php 
 $this->widget('zii.widgets.jui.CJuiDatePicker',array(
 		 'model'=>$model,
-    'name'=>'validity_time',
+		'attribute'=>'validity_time',
+		'language' => 'hu',
+   		 //'name'=>'Advertisment[validity_time_str]',
 		// additional javascript options for the date picker plugin
 		'options'=>array(
 				'showAnim'=>'fold',
 				'maxDate'=>'"+1m'
 		),
+		//'value'=>$model->getValidityTimeInput(),
 		'htmlOptions'=>array(
 				'style'=>'height:20px;'
 		),

@@ -3945,3 +3945,34 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/realestate/index.php?r=advertisment/create
 ---
+2013/07/19 12:14:33 [error] [exception.CException] exception 'CException' with message 'Property "ImperaviRedactorWidget.language" is not defined.' in C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('language', 'hu')
+#1 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(AdvertismentController), 'ImperaviRedacto...', Array)
+#2 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('ImperaviRedacto...', Array)
+#3 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\_form.php(46): CBaseController->widget('ImperaviRedacto...', Array)
+#4 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#5 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#6 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#7 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\views\advertisment\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(126): require('C:\work\appz\xa...')
+#9 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\work\appz\xa...', Array, true)
+#10 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\work\appz\xa...', Array, true)
+#11 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\protected\controllers\AdvertismentController.php(121): CController->render('create', Array)
+#13 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdvertismentController->actionCreate()
+#14 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('advertisment/cr...')
+#24 C:\work\appz\xampp\xamp 1.7.7\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\work\appz\xampp\xamp 1.7.7\htdocs\realestate\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/realestate/index.php?r=advertisment/create
+---

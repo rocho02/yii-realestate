@@ -47,7 +47,7 @@
 
 <div class="row">
 	<?php echo $form->labelEx($model,'state'); ?>
-	<?php echo $form->textField($model,'state'); ?>
+	<?php echo $form->dropDownList($model,'state',$model->getStates() ); ?>
 	<?php echo $form->error($model,'state'); ?>
 </div>
 
